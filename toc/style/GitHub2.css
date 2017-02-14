@@ -393,6 +393,7 @@ pre code {
   white-space: pre;
   border: none;
   background: transparent;
+  font-family: STKaiti, Arial, Helvetica, AppleGothic, sans-serif;
 }
 
 .highlight pre {
@@ -403,6 +404,12 @@ pre code {
   overflow: auto;
   padding: 6px 10px;
   border-radius: 3px;
+}
+
+.markdown-body > pre {
+  line-height: 40px;
+  padding: 10px;
+  font-size: 30px;
 }
 
 pre {
